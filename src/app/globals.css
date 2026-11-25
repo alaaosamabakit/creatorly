@@ -1,26 +1,105 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-cream: #faf8f5;
+  --bg-oat: #f3ede4;
+  --bg-surface: #ffffff;
+  --ink-primary: #111116;
+  --ink-secondary: #484654;
+  --ink-muted: #767384;
+  --border-subtle: rgba(17, 17, 22, 0.08);
+  --border-strong: rgba(17, 17, 22, 0.14);
+
+  --accent-coral: #ff5c35;
+  --accent-coral-soft: #fff0eb;
+  --accent-indigo: #4f46e5;
+  --accent-indigo-soft: #eef0ff;
+  --accent-mint: #10d98e;
+  --accent-mint-deep: #06744c;
+  --accent-mint-soft: #e6fcf4;
+  --accent-violet: #a855f7;
+  --accent-violet-soft: #f6ecff;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream: var(--bg-cream);
+  --color-oat: var(--bg-oat);
+  --color-surface: var(--bg-surface);
+  --color-ink: var(--ink-primary);
+  --color-ink-secondary: var(--ink-secondary);
+  --color-ink-muted: var(--ink-muted);
+
+  --color-coral: var(--accent-coral);
+  --color-coral-soft: var(--accent-coral-soft);
+  --color-indigo: var(--accent-indigo);
+  --color-indigo-soft: var(--accent-indigo-soft);
+  --color-mint: var(--accent-mint);
+  --color-mint-deep: var(--accent-mint-deep);
+  --color-mint-soft: var(--accent-mint-soft);
+  --color-violet: var(--accent-violet);
+  --color-violet-soft: var(--accent-violet-soft);
+
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-cream);
+  color: var(--ink-primary);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-cream);
+  color: var(--ink-primary);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Expressive display typography helper */
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.03em;
+}
+
+/* Subtle warm studio dot grid */
+.bg-studio-dots {
+  background-image: radial-gradient(rgba(17, 17, 22, 0.085) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Multi-layered tactile floating card shadows */
+.shadow-float {
+  box-shadow:
+    0 2px 6px rgba(17, 17, 22, 0.03),
+    0 12px 32px -8px rgba(17, 17, 22, 0.08),
+    0 1px 0 rgba(255, 255, 255, 0.8) inset;
+}
+
+.shadow-float-lg {
+  box-shadow:
+    0 4px 12px rgba(17, 17, 22, 0.04),
+    0 24px 56px -14px rgba(17, 17, 22, 0.13),
+    0 1px 0 rgba(255, 255, 255, 0.9) inset;
+}
+
+.shadow-coral-glow {
+  box-shadow:
+    0 10px 28px -8px rgba(255, 92, 53, 0.42),
+    0 2px 6px rgba(255, 92, 53, 0.18);
+}
+
+.shadow-indigo-glow {
+  box-shadow:
+    0 10px 28px -8px rgba(79, 70, 229, 0.36),
+    0 2px 6px rgba(79, 70, 229, 0.16);
+}
+
+/* Selection styling */
+::selection {
+  background-color: rgba(255, 92, 53, 0.2);
+  color: #111116;
 }
