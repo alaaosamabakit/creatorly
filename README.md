@@ -18,13 +18,22 @@ Creatorly is a modern social media creation and management platform designed to 
 ### Home
 ![Creatorly Home](screenshots/home.png)
 
-### AI Content Studio
-![AI Studio](screenshots/AI%20Studio.png)
-
-![AI Studio 2](screenshots/AI%20Studio%202.png)
-
 ### AI Playground
-![AI Playground](screenshots/AI%20Playground.png)
+![AI Playground](screenshots/AI_Playground.png)
+
+### Spark Feed
+![Spark Feed](screenshots/Spark_Feed.png)
+
+### AI Content Studio
+![AI Studio](screenshots/Studio_Lab.png)
+
+![AI Studio 2](screenshots/Studio_Lab2.png)
+
+### Studio Lab
+![Studio Lab](screenshots/Al_Studio.png)
+
+![Studio Lab 2](screenshots/Al_Studio2.png)
+
 
 ### Content Calendar
 ![Content Calendar](screenshots/Calendar.png)
@@ -32,13 +41,9 @@ Creatorly is a modern social media creation and management platform designed to 
 ### Posts Manager
 ![Posts Manager](screenshots/Posts.png)
 
-### Studio Lab
-![Studio Lab](screenshots/Studio%20Lab.png)
 
-![Studio Lab 2](screenshots/Studio%20Lab%202.png)
 
-### Spark Feed
-![Spark Feed](screenshots/Spark%20Feed.png)
+
 
 ## 🛠️ Tech Stack
 
