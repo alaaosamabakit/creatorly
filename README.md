@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Creatorly ✦
+### Your Creative Space for Social Media
 
-First, run the development server:
+Creatorly is a modern social media creation and management platform designed to help content creators organize their workflow, create content, and manage their publishing plans through a creative and interactive experience.
+
+## ✨ Features
+
+- **Creative Home:** A visual workspace for creators.
+- **AI Content Studio:** A dedicated space for content creation workflows.
+- **AI Playground:** An experimental creative workspace.
+- **Content Calendar:** Organize and plan social media posts.
+- **Posts Manager:** Manage and organize saved posts.
+- **Studio Lab:** Explore creative tools and content ideas.
+
+## 🖼️ Screenshots
+
+### Home
+![Creatorly Home](screenshots/home.png)
+
+### AI Content Studio
+![AI Studio](screenshots/AI%20Studio.png)
+
+![AI Studio 2](screenshots/AI%20Studio%202.png)
+
+### AI Playground
+![AI Playground](screenshots/AI%20Playground.png)
+
+### Content Calendar
+![Content Calendar](screenshots/Calendar.png)
+
+### Posts Manager
+![Posts Manager](screenshots/Posts.png)
+
+### Studio Lab
+![Studio Lab](screenshots/Studio%20Lab.png)
+
+![Studio Lab 2](screenshots/Studio%20Lab%202.png)
+
+### Spark Feed
+![Spark Feed](screenshots/Spark%20Feed.png)
+
+## 🛠️ Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Motion for React
+- Lucide React
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/alaaosamabakit/creatorly.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📌 Project Status
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Creatorly is currently under development. Some features use local storage or demonstration data, while advanced AI capabilities and external social media integrations are planned for future development.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Built with creativity ✦**
